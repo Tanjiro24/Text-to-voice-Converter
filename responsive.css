@@ -1,0 +1,35 @@
+@media (max-width:612px) {
+    textarea {
+        width: 445px;
+    }
+
+    .row {
+        width: 445px;
+    }
+
+    .main>h1 {
+        font-size: 39px;
+    }
+}
+
+@media (min-width:360px) and (max-width:444px) {
+
+    .main>h1 {
+        font-size: 28px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+
+    textarea {
+        width: 330px;
+    }
+
+    .row {
+        width: 325px;
+    }
+
+    select {
+        display: none;
+    }
+
+}
